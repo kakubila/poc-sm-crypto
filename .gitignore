@@ -1,0 +1,29 @@
+HELP.md
+.gradle
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+build/
+gradlew.bat
+
+### VS Code ###
+.vscode/
+logs/
+gradle/
+.DS_Store
+src/.DS_Store
+src/main/.DS_Store
+gradlew

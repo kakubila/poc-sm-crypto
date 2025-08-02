@@ -1,0 +1,5 @@
+server:
+  port: 8089
+
+crypto:
+  imkac: "0123456789ABCDEFFEDCBA9876543210"
