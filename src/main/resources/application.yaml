@@ -2,4 +2,12 @@ server:
   port: 8089
 
 crypto:
-  imkac: "0123456789ABCDEFFEDCBA9876543210"
+  # imkac: "4E086729B8D36FD94E086729B8D36FD9"
+  imkac:
+    keySlot: '0001'
+    keyName: 'IMKAC-ISSUER1'
+    keyType: 'IMKac'
+    keyValue: '4E086729B8D36FD94E086729B8D36FD9'
+    
+  zpk:
+    keyValue: '0123456789ABCDEFFEDCBA9876543210'

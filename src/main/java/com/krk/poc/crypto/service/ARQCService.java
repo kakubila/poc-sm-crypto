@@ -13,7 +13,7 @@ public class ARQCService {
     private static final String ALG = "DESede/ECB/NoPadding";
     private final byte[] imkac;
 
-    public ARQCService(@Value("${crypto.imkac}") String hexImkac) throws Exception {
+    public ARQCService(@Value("${crypto.imkac.keyValue}") String hexImkac) throws Exception {
         this.imkac = Hex.decodeHex(hexImkac);
     }
 
