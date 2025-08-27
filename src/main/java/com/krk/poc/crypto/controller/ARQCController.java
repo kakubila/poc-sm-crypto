@@ -1,4 +1,4 @@
-package com.krk.poc.crypto.contoller;
+package com.krk.poc.crypto.controller;
 
 import com.krk.poc.crypto.service.ARQCService;
 import org.springframework.beans.factory.annotation.Autowired;

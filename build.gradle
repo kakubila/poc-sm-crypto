@@ -14,9 +14,10 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.apache.httpcomponents.client5:httpclient5'
     implementation 'commons-codec:commons-codec:1.17.0'
 
-		compileOnly 'org.projectlombok:lombok:1.18.32'
+    compileOnly 'org.projectlombok:lombok:1.18.32'
     annotationProcessor 'org.projectlombok:lombok:1.18.32'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
 

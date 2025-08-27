@@ -1,13 +1,40 @@
 server:
   port: 8089
 
+payment:
+  gateway:
+    baseUrl: "http://localhost:8221"   # ⬅️ add this
+
 crypto:
-  # imkac: "4E086729B8D36FD94E086729B8D36FD9"
   imkac:
     keySlot: '0001'
     keyName: 'IMKAC-ISSUER1'
-    keyType: 'IMKac'
+    keyType: 'IMKAC'
     keyValue: '4E086729B8D36FD94E086729B8D36FD9'
-    
+
+  pin:
+    remote: false
   zpk:
     keyValue: '0123456789ABCDEFFEDCBA9876543210'
+
+
+
+
+
+
+
+#server:
+#  port: 8089
+#
+#crypto:
+#  imkac:
+#    keySlot: '0001'
+#    keyName: 'IMKAC-ISSUER1'
+#    keyType: 'IMKac'
+#    keyValue: '4E086729B8D36FD94E086729B8D36FD9'
+#
+#  pin:
+#    remote: false # true for remote PIN, false for local PIN# default: use LocalHsmClient
+#  zpk:
+#    keyValue: '0123456789ABCDEFFEDCBA9876543210'
+
