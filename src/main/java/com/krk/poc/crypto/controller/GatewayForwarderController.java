@@ -65,6 +65,7 @@ public class GatewayForwarderController {
                   String.class
             );
         } catch (RestClientException ex) {
+            log.error("Error forwarding to payment-gateway: {}", ex.getMessage());
             // Return 502 with useful context but keep ARQC + updated field55
             return ResponseEntity.status(HttpStatus.BAD_GATEWAY).body(Map.of(
                   "arqc", arqc,
@@ -73,10 +74,10 @@ public class GatewayForwarderController {
                   "detail", ex.getMessage()
             ));
         }
-
+        log.info("Updated field 55 {}", updatedField55);
         return ResponseEntity.ok(Map.of(
               "arqc", arqc,
-              "updatedField55", updatedField55,
+//              "updatedField55", updatedField55,
               "gatewayResponse", gatewayResponse.getBody()
         ));
     }
