@@ -1,7 +1,7 @@
-package com.krk.poc.crypto.client;
+package com.krk.pos.acquirer.client;
 
-import com.krk.poc.crypto.client.dto.EpinRequestDto;
-import com.krk.poc.crypto.client.dto.EpinResponseDto;
+import com.krk.pos.acquirer.client.dto.EpinRequestDto;
+import com.krk.pos.acquirer.client.dto.EpinResponseDto;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

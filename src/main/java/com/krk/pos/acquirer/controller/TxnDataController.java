@@ -1,6 +1,6 @@
-package com.krk.poc.crypto.controller;
+package com.krk.pos.acquirer.controller;
 
-import com.krk.poc.crypto.service.TransactionDataService;
+import com.krk.pos.acquirer.service.TransactionDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

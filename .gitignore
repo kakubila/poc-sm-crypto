@@ -30,4 +30,5 @@ gradlew
 ignore/
 bin/
 _tmp/
+*zip
 

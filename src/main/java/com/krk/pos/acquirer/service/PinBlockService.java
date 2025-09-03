@@ -1,4 +1,4 @@
-package com.krk.poc.crypto.service;
+package com.krk.pos.acquirer.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;

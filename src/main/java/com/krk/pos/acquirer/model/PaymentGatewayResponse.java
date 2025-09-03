@@ -1,4 +1,4 @@
-package com.krk.poc.crypto.model;
+package com.krk.pos.acquirer.model;
 
 public class PaymentGatewayResponse {
     private boolean approved;

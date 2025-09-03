@@ -1,4 +1,4 @@
-package com.krk.poc.crypto.util;
+package com.krk.pos.acquirer.util;
 
 import javax.crypto.Cipher;
 import javax.crypto.SecretKey;

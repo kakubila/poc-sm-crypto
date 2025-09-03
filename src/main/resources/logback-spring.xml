@@ -3,7 +3,7 @@
     <include resource="org/springframework/boot/logging/logback/defaults.xml"/>
 
     <property name="LOG_PATH" value="logs"/>
-    <property name="LOG_FILE" value="${LOG_PATH}/poc-sm-crypto.log"/>
+    <property name="LOG_FILE" value="${LOG_PATH}/pos-acquirer.log"/>
 
     <!-- 1) Console (goes to Docker stdout) -->
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
@@ -16,7 +16,7 @@
     <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
         <file>${LOG_FILE}</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${LOG_PATH}/pos-crypto-%d{yyyy-MM-dd_HH}.log</fileNamePattern>
+            <fileNamePattern>${LOG_PATH}/pos-acquirer-%d{yyyy-MM-dd_HH}.log</fileNamePattern>
             <maxHistory>30</maxHistory>
         </rollingPolicy>
         <encoder>

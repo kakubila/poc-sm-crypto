@@ -1,4 +1,4 @@
-package com.krk.poc.crypto.client;
+package com.krk.pos.acquirer.client;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;

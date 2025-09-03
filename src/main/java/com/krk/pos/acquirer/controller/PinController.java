@@ -1,7 +1,7 @@
-package com.krk.poc.crypto.controller;
+package com.krk.pos.acquirer.controller;
 
-import com.krk.poc.crypto.client.PaymentGatewayClient;
-import com.krk.poc.crypto.service.PinBlockService;
+import com.krk.pos.acquirer.client.PaymentGatewayClient;
+import com.krk.pos.acquirer.service.PinBlockService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.HashMap;

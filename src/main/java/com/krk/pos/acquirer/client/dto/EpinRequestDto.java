@@ -1,4 +1,4 @@
-package com.krk.poc.crypto.client.dto;
+package com.krk.pos.acquirer.client.dto;
 
 public class EpinRequestDto {
    private String pan;

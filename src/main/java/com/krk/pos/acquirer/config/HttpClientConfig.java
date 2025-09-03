@@ -1,4 +1,4 @@
-package com.krk.poc.crypto.config;
+package com.krk.pos.acquirer.config;
 
 import org.apache.hc.client5.http.config.RequestConfig;
 import org.apache.hc.client5.http.impl.classic.CloseableHttpClient;

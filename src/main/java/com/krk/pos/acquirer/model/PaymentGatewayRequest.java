@@ -1,6 +1,6 @@
-package com.krk.poc.crypto.model;
+package com.krk.pos.acquirer.model;
 
-public class TransactionRequest {
+public class PaymentGatewayRequest {
     private String pan;
     private String expiryDate;
     private String serviceCode;
@@ -9,5 +9,6 @@ public class TransactionRequest {
     private String transactionCurrencyCode;
     private String terminalCountryCode;
     private String unpredictableNumber;
-    // getters/setters
+    // constructor/getters/setters
 }
+

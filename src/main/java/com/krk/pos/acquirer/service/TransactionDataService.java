@@ -1,6 +1,6 @@
-package com.krk.poc.crypto.service;
+package com.krk.pos.acquirer.service;
 
-import com.krk.poc.crypto.util.EMVField55Parser;
+import com.krk.pos.acquirer.util.EMVField55Parser;
 import org.springframework.stereotype.Service;
 import java.util.Map;
 
